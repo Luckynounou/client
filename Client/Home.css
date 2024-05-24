@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #0056b3; /* Darker blue for contrast */
+    border-radius: 5px;
+}
+
+.welcome-message {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee; /* Light grey background for contrast */
+}
+
+.welcome-message .hero-image {
+    width: 100%; /* Full width of the container */
+    max-height: 300px; /* Fixed maximum height for the image */
+    object-fit: cover; /* Ensures the image covers the area well without distorting aspect ratio */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
